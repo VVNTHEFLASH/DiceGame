@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dice Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body><div class="container">
+  <h1>Multiplayer Dice Game</h1>
+  <div class="row">
+    <div class='player-1 col'>
+      <img src="assets/mario.jfif" alt="logo" width="100px" height="100px">
+      <span id='player-1-name'></span>
+      <div class="row" id="player-1-round-roll">
+        
+      </div>
+    </div>
+  <div class='score'>
+    <span id="player-1-score">0</span>
+    <span>-</span>
+    <span id="player-2-score">0</span>
+  </div>
+  <div class='player-2 col'>
+    <div class="row"></div>
+        <img src="assets/luigi.jfif" alt="logo" width="100px" height="100px">
+    <span id='player-2-name'></span>
+    <div class="row" id="player-2-round-roll">
+      
+    </div>
+  </div></div>
+  <div class="row">
+    <button onclick=ButtonClick() id="button" ></button>
+  </div>
+  <div id="result" class="row" hidden></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

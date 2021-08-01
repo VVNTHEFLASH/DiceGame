@@ -1,0 +1,43 @@
+body {
+    background: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 600px;
+    height: 400px;
+    box-shadow:  2px 2px red;
+}
+h1{
+    text-align: center;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+button{
+    width: 200px;
+    padding: 10px;
+    background: yellow;
+    border:none;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: large;
+}
+button:hover {
+    background: black;
+    color: yellow
+}
